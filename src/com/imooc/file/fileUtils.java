@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.file;
 
 import java.io.File;
 import java.io.IOException;

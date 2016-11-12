@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.file;
 
 public class system {
 

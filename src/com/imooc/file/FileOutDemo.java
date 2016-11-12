@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.file;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
