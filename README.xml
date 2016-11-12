@@ -1,0 +1,20 @@
+#这是xml的学习笔记
+
+有4种解析xml的方式
+
+1.DOM解析
+
+	创建一个DocumentBuilderFactory的对象,反射
+	创建DocumentBuilder对象,dbf.new...
+	加载文件 documet = db.pa..
+	doc.getEle...
+	获取节点属性及值
+	获取子节点属性及值
+
+2.SAX解析
+
+	SAXParserFactory反射
+	SAXParser   factory.new...
+	创建一个继承defultHandler的类
+	parser.parse()
+
