@@ -18,3 +18,16 @@
 	创建一个继承defultHandler的类
 	parser.parse()
 
+3.JDOM解析
+
+	创建一个SAXBuilder 对象
+	创建读入文件的输入流
+	SAXBuilder对象的.build方法，加载
+	功过document对象获取xml文件的跟节点
+	根节点.getChildren()根节点下的子节点
+
+4.DOM4J解析
+
+	创建SAXReader的对象reader
+	通过reader的read加载文件
+	
