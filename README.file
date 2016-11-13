@@ -1,0 +1,29 @@
+#笔记
+
+FileInputStream
+
+字节数组缓冲，最快
+
+DataInputStream	带了一些封装的方法
+
+RandomAccessFile 有指针，可以追加。
+
+BufferInputStream 带缓冲区，一定要用flush
+
+InputStreamReader 文件的byte流解析为代码的char流，按照编码
+
+FileReader 构造简单一点,加true为追加
+
+BufferedReader 字符流过滤器
+BufferedWriter/PrintWriter 和PrintWriter搭配更好
+
+ObjectOutputStream 序列化流
+ObjectInputStream  反序列化流
+
+Serializable 序列化接口
+
+transient 不会进行jvm默认的序列化
+
+序列化的关键字writeObject 和 readObject 可以从ArrayList中找到
+
+
