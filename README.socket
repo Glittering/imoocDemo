@@ -1,0 +1,13 @@
+#socket笔记
+
+端口号0-1023，系统占用。
+0-65535所有端口号
+
+http80	ftp21	telnet23
+
+socket有关的4个类：
+	InetAddress：标识网络上的硬件资源，表示ip
+	URL：直接读取或写入网络上的数据，标识某一资源地址
+	Socket：TCP
+	DataGram：UDP
+	

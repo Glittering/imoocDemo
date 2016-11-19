@@ -29,5 +29,8 @@
 4.DOM4J解析
 
 	创建SAXReader的对象reader
-	通过reader的read加载文件
+	通过reader的read加载文件document
+	.getRootElement() 获取根节点
+	.elementIterator() 获取迭代器
 	
+注：jUnit 测试，先导入jUnit包。在方法名前加@Test
