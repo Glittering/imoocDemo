@@ -29,6 +29,9 @@ public class SocketURLWeb {
 			System.out.println(str);
 			str = br.readLine();
 		}
+		br.close();
+		isr.close();
+		is.close();
 	}
 
 }
